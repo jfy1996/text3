@@ -1,0 +1,64 @@
+@media (min-width: 980px) {
+    .html{font-size: 5rem;}
+}  /*像素值大于980px时，html字体大小为5rem*/
+
+body {
+    background-color: #68cdd5;
+    font-size: 62.5%;
+    margin: 0 1em;
+    padding: 0;}
+
+header{padding: 0 2%;}
+
+.pic1{background:url("返回.png")no-repeat;
+    margin-top: 2em;
+    width: 5em;
+    height: 5em;
+    background-size: cover}
+
+main{margin-top: 1em;
+    padding:0 10%;}
+
+.pic2{background:url("整合logo.png")no-repeat;
+    width: 10.5em;
+    height: 4em;
+    background-size: cover;
+    margin: 0 auto;}
+
+main .content{
+    font-size:1.5em;
+    color: white;
+    font-family: serif;
+    text-align: center;
+    margin-top:5em;}
+
+footer{display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10em;
+    padding: 0 12%;}
+
+.phone .box {margin: 0 1em;
+    width: 4em;
+    height: 4em;}
+
+.pic3{background:url("联系电话.png");
+    background-size: cover;
+    width:  4em;
+    height:  4em;
+    margin: 0 auto }
+
+.pic4{background:url("葡萄藤logo.png")no-repeat;
+    background-size: cover;
+    width:  4em;
+    height:  4em;
+    margin: 0 auto }
+
+footer .content{
+    color: white;
+    font-size:1.1em;
+    font-family: serif;
+    text-align: center;}
+
+
+
